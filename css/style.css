@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Eczar', serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.one .card {
+  height: 600px;
+  width: 450px;
+  -webkit-box-shadow: 3px 3px 25px black;
+          box-shadow: 3px 3px 25px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(135deg, #C56CD6 0%, #3425AF 100%);
+}
+
+.one .card .profile-name {
+  font-size: 25px;
+  color: #fff;
+  border-bottom: 3px solid;
+}
+
+.one .card .profile-image {
+  height: 150px;
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.one .card .social-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.one .card .social-info span {
+  border: 3px solid #fff;
+  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+  padding: 5px 25px;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.one .card .social-info span:hover {
+  border: 3px solid #f76b1c;
+  color: orange;
+  background: transparent;
+}
+
+.one .card .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.one .card .social-icons .icon {
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+}
+
+.one .card .social-icons .icon:hover {
+  background: transparent;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.one .card .social-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.one .card .social-btn a {
+  border: 3px solid #fff;
+  background: linear-gradient(135deg, #fad961 0%, #f76b1c 100%);
+  padding: 5px 25px;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.one .card .social-btn a:hover {
+  border: 3px solid #f76b1c;
+  color: orange;
+  background: transparent;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=style.css.map */
